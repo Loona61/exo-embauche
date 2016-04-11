@@ -1,0 +1,176 @@
+/* CSS reset */
+
+body,
+div,
+ul,
+ol,
+li,
+input,
+p,
+th,
+td {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+
+body {
+    font-family: Cambria, Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #3a2127;
+    overflow-y: scroll;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 800px;
+    max-height: 500px;
+    width:100%;
+    height:100%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* --------------- */
+
+.boutique {
+    display:flex;
+    flex-direction: column;
+    min-height: 310px;
+    font: 13px 'Lucida Sans', 'trebuchet MS', Arial, Helvetica;
+    background: #fff;
+    border: 1px solid #ddd;
+    color: #333;
+    width: 260px;
+    height:100%;
+    max-height:458px;
+    position: relative;
+    -moz-box-shadow: 0 2px 2px -1px rgba(0, 0, 0, .3);
+    -webkit-box-shadow: 0 2px 2px -1px rgba(0, 0, 0, .3);
+    box-shadow: 0 2px 2px -1px rgba(0, 0, 0, .3);
+}
+
+
+/* --------------- */
+
+.nom {
+    position: relative;
+    font-size: 125%;
+    font-weight: normal;
+    text-transform: uppercase;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-bottom: 8px solid;
+    background-color: #eee;
+    background-image: -moz-linear-gradient(#fff, #eee);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#eee));
+    background-image: -webkit-linear-gradient(#fff, #eee);
+    background-image: -o-linear-gradient(#fff, #eee);
+    background-image: -ms-linear-gradient(#fff, #eee);
+    background-image: linear-gradient(#fff, #eee);
+    border-bottom-color: #B3E03F;
+}
+
+/* --------------- */
+
+.adresse {
+    font-size: 13px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: #999;
+}
+
+
+/* --------------- */
+
+.horaire {
+    margin:auto;
+    padding-bottom: 56px;
+}
+
+ul {
+    margin: 20px 0;
+    padding: 0;
+    list-style: none;
+}
+
+li {
+    padding: 10px 0;
+}
+
+td {
+    border: 1px solid #ddd;
+}
+
+.tableauProd {
+    width:100%;
+}
+
+.nomProd {
+    width:75%;
+    margin:0;
+}
+
+.prixProd {
+    width: 15%;
+    margin:0;
+}
+
+/* --------------- */
+
+.select {
+    position:absolute;
+    bottom:20px;
+    left:50%;
+    width:150px;
+    margin-left: -95px;
+    padding: 10px 20px;
+    color: #fff;
+    font: bold 14px Arial, Helvetica;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #72ce3f;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, .15);
+    opacity: .9;
+    background: #B3E03F;
+}
+
+.select:hover {
+    opacity: 1;
+}
+
+.select:active {
+    -moz-box-shadow: 0 2px 2px rgba(0, 0, 0, .3) inset;
+    -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, .3) inset;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, .3) inset;
+}
